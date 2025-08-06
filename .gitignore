@@ -1,0 +1,60 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+
+# Output of go build
+/bin
+/go/bin/
+/go/pkg/
+
+# Go workspace file (if using Go workspaces)
+go.work
+go.work.sum
+
+# Build artifacts
+*.out
+
+# Logs
+*.log
+
+# Dependency directories (vendor/)
+vendor/
+
+# Docker
+*.tar
+*.img
+
+# Kubernetes Helm chart artifacts
+charts/**/charts/
+charts/**/tmpcharts/
+charts/**/.helmignore
+
+# Helm generated files
+*.tgz
+
+# Local env files
+.env
+.env.*
+*.env
+
+# IDEs and editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# GitHub SSH / GPG files (just in case)
+*.pub
+*.pem
+*.key
+
+# Ignore secret Kubernetes manifests if you generate any
+secrets.yaml
