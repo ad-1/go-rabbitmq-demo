@@ -86,10 +86,10 @@ http://localhost:15672
 
 Login using:
 
-Username: guest
-Password: guest
+- Username: guest
+- Password: guest
 
-top RabbitMQ later (optional):
+Stop RabbitMQ later:
 
 ```
 docker-compose down
